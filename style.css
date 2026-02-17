@@ -1,0 +1,64 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #609bd6; 
+  color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/*header style */
+.header-title h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+ /*card  */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;  
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #eee;
+  color: #444;
+}
+ 
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #007bff;  
+}
+
+.card p {
+  margin: 0.2rem 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+ 
+.card .email {
+  font-weight: 500;
+}
+
+.email:hover{
+  color: #222a9b;
+}
